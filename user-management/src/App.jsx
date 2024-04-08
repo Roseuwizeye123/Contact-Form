@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import Register from './components/Register'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () =>{
   return (
-    <>
-      <h4>hello rose how are?</h4>
-    </>
+    <div>
+      <Register />
+
+    </div>
   )
 }
 
 export default App
+
